@@ -857,9 +857,9 @@ class LTC3351(collections.Mapping):
     _constants = {
         'RSNSI': 0.018,
         'RSNSC': 0.012,
-        'RTST': 121,
-        'RT': 71.5e3,
-        'CTL_CAP_SCALE_VALUE': 1,
+        'RTST': 33,
+        'RT': 100e3,
+        'CTL_CAP_SCALE_VALUE': 0,
         }
 
     _xml_formats = {
